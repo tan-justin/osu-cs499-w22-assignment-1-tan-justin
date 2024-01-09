@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+.album {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 100%;
+  padding: 10px;
+  justify-content: right;
+
+}
+.columnLeft {
+    float: left;
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    flex: 1;
+
+  }
+.columnRight {
+  float: right;
+  max-width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+  flex: 1;
+}
+
+.Error {
+  color: red;
+  border: 10px solid red;
+}
+
+.Card{
+  float: right;
+  justify-content: right;
+  width: 250px;
+  height: 300px;
+  image-rendering: auto;
+  border: 5px solid;
+  border-radius: 20px;
+  padding: 10px;
+  border-color: grey;
+  text-align: center;
+  font-size: 120%;
+}
+
+.ButtonForm{
+  justify-content:center;
+  float: left;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  position: fixed;
+}
+
+.ButtonCancel{
+  justify-self: center;
+  float: left;
+  width:100px;
+  height: 20px;
+  text-align: center;
+  position: fixed;
+  top: 15%;
+}
+
+.Error{
+  float:left;
+  justify-content: center;
+  border-radius: 5px;
+  border-color: red;
+  text-align: center;
+  position: fixed;
+  top: 5%;
+  left: 30%;
+
+}
+
+.form{
+  position: fixed;
+  top: 7.5%;
+}
